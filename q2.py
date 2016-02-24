@@ -30,6 +30,9 @@ CorrectInput = [1, 2, 3, 4]
 playerChoice =''
 if playerChoice not in CorrectInput:
     print('Please pick a number between 1 and 4.')
+    playerChoice = int(input())
+    if playerChoice not in CorrectInput:
+        print(' This value is not accepted please pick a number between 1 and 4.')
     continue
 else:
     return int(playerChoice)
