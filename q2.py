@@ -33,7 +33,6 @@ def askUserChoice():
     userChoice = int(input())
     if userChoice not in CorrectInput:
         print('This value is not accepted please pick a number between 1 and 4.')
-        continue
     else:
         return int(userChoice)
         
