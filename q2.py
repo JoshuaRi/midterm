@@ -28,11 +28,11 @@ def askUserChoice():
     # 3. Once the user enters a valid input, return that input as an integer.
 CorrectInput = [1,2,3,4]
 userChoice =''
-if userChoice not in CorrectInput:
+while userChoice not in CorrectInput:
     print('Please pick a number between 1 and 4.')
     userChoice = int(input())
     if userChoice not in CorrectInput:
-        print(' This value is not accepted please pick a number between 1 and 4.')
+        print('This value is not accepted please pick a number between 1 and 4.')
         continue
     else:
         return int(userChoice)
