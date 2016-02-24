@@ -30,6 +30,7 @@ CorrectInput = [1, 2, 3, 4]
 playerChoice =''
 if playerChoice not in CorrectInput:
     print('Please pick a number between 1 and 4.')
+    continue
 else:
     return int(playerChoice)
         
@@ -40,7 +41,6 @@ def subtractSticks( number ):
     sticks = sticks - number
     if sticks <= 0:
         return True
-        continue
     else:
         return False
     # TODO: write code inside this function that:
