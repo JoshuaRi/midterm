@@ -40,7 +40,7 @@ if userChoice not in CorrectInput:
 def subtractSticks( number ):
     global sticks 
     
-     int(number)
+    int(number)
     sticks = sticks - number
     if sticks <= 0:
         return True
