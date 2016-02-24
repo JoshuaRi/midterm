@@ -40,7 +40,7 @@ else:
 def subtractSticks( number ):
     global sticks 
     
-    int(number)
+     int(number)
     sticks = sticks - number
     if sticks <= 0:
         return True
@@ -53,5 +53,5 @@ def subtractSticks( number ):
     
 def determineComputerChoice():
     # TODO: write code inside this function that returns an integer between 1 and 4, random chosen by the computer
-    computerChoice = random.randit(1.4)
+    computerChoice = random.randit(1,4)
     return computerChoice
