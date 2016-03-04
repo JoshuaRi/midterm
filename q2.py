@@ -38,9 +38,9 @@ def askUserChoice():
         
 def subtractSticks( number ):
    sticks = sticks - number
-    if sticks <= 0:
-        return True
-    else:
+   if sticks <= 0:
+      return True
+   else:
         return False
     # TODO: write code inside this function that:
     # 1. subtracts the parameter `number` from the global variable `sticks`
