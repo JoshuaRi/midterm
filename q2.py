@@ -37,10 +37,7 @@ def askUserChoice():
         return int(userChoice)
         
 def subtractSticks( number ):
-    global sticks 
-
-    int(number)
-    sticks = sticks - number
+   sticks = sticks - number
     if sticks <= 0:
         return True
     else:
